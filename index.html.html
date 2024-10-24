@@ -1,0 +1,263 @@
+<style>
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    color: #A1A5AD;
+    background: #14151A;
+    line-height: 1.6;
+}
+/* Add styling for profile image */
+.profile-image {
+    width: 150px;  /* Adjust the size */
+    height: 150px;
+    border-radius: 50%;  /* Makes the image circular */
+    margin-bottom: 20px;  /* Space between image and the text */
+}
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #23262E;
+}
+
+header .logo {
+    font-size: 1.5rem;
+    color: #FFFFFF;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+}
+
+header nav ul li {
+    margin-left: 20px;
+}
+
+header nav ul li a {
+    color: #A1A5AD;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header nav ul li a:hover {
+    color: #62DAFB;
+}
+
+/* Hero Section */
+.hero {
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #23262E;
+}
+
+.hero-content {
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.hero .trophy-icon {
+    width: 100px;
+    margin-bottom: 20px;
+}
+
+.hero h1 {
+    font-size: 2.5rem;
+}
+
+.hero p {
+    margin: 20px 0;
+}
+
+.cta-button {
+    background-color: #00AEEF;
+    color: #FFFFFF;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 1rem;
+    border-radius: 5px;
+}
+
+.cta-button:hover {
+    background-color: #62DAFB;
+}
+
+/* Section styling */
+.section {
+    padding: 50px 20px;
+    text-align: center;
+    background-color: #1E1F24;
+    margin-bottom: 20px;
+}
+
+.section h2 {
+    color: #FFFFFF;
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.section p {
+    color: #A1A5AD;
+}
+
+/* Footer */
+footer {
+    background-color: #23262E;
+    text-align: center;
+    padding: 20px;
+    color: #A1A5AD;
+}
+
+footer .social-links a {
+    margin: 0 10px;
+    color: #00AEEF;
+    text-decoration: none;
+}
+
+footer .social-links a:hover {
+    color: #62DAFB;
+}
+
+</style>
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Piyush Kumar Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="logo">Piyush Kumar</div>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#education">Educational Background</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#publications">Paper/Patent Publications</a></li>
+                <li><a href="#awards">Awards & Achievements</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#membership">Membership</a></li>
+                <li><a href="#research">Research Thrust Area</a></li>
+                <li><a href="#events">List of Events</a></li>
+                <li><a href="#presentations">Poster/Paper Presentations</a></li>
+                <li><a href="#courses">Courses Completed</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <!-- Photo of yourself or related image -->
+            <img src="pic.jpg" alt="Piyush Kumar" class="profile-image">
+            
+            <h1>Welcome to My Portfolio</h1>
+            <p>Discover my academic journey, projects, and achievements.</p>
+            <button class="cta-button">Explore More</button>
+        </div>
+    </section>
+    
+
+    <!-- About Me Section -->
+    <section id="about" class="section">
+        <h2>About Me</h2>
+        <p>Hello! I am Piyush Kumar, a first year computer science student at  IEM Newtown. I hail from a city known as the "Coal Capital of India", Dhanbad,Jharkhand.<br> I did my schooling there and then came to Kolkata to persue my Bachelors. </p>
+    </section>
+
+    <!-- Educational Background Section -->
+    <section id="education" class="section">
+        <h2>Educational Background</h2>
+        <p>1.Matriculation or 10th(Grade:95.8%)<br>2.Intermediate or 12th(Grade:94.2%)</p>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="section">
+        <h2>Experience</h2>
+        <p>Participated in coding contests and  Volunteering experience in CBSE east zone yoga.</p>
+    </section>
+
+    <!-- Paper/Patent Publications Section -->
+    <section id="publications" class="section">
+        <h2>Paper/Patent Publications</h2>
+        <p>Working of Neural Networks</p>
+    </section>
+
+    <!-- Awards and Achievements Section -->
+    <section id="awards" class="section">
+        <h2>Awards and Achievements</h2>
+        <p>1. School Topper in AISSCE 2023<br>2.District rank 3 in Hindustan Olympiad.<br>3.Multiple awards in intra-School Science Exhibition "KALIEDOSCOPE".</p>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section">
+        <h2>Projects</h2>
+        <p>1.Edible Cutlery<br>2.Floor Cleaning Robot<br>3.Tricks to find the square of 2-digit and 3-digit numbers using Vedic Mathematics</p>
+    </section>
+
+    <!-- Membership Section -->
+    <section id="membership" class="section">
+        <h2>Membership</h2>
+        <p>Member of the College Environmental Club and Active contribution in coding and robotics clubs my college.</p>
+    </section>
+
+    <!-- Research Thrust Area Section -->
+    <section id="research" class="section">
+        <h2>Research Thrust Area</h2>
+        <p>AI and Ml with keen interest in VLSI and Embedded Systems and Quantum Mechanics. </p>
+    </section>
+
+    <!-- List of Events Section -->
+    <section id="events" class="section">
+        <h2>List of Events (Organized/Attended)</h2>
+        <p>1.Member of organising committee in 2019 CBSE East Zone Yoga.<br>2. Attended Workshop of blockchain held in my college.</p>
+    </section>
+
+    <!-- Poster/Paper Presentation Section -->
+    <section id="presentations" class="section">
+        <h2>Poster/Paper Presentations</h2>
+        <p>Review article about 'DEEP LEARNING AND SPACE EXPLORATION'</p>
+    </section>
+
+    <!-- Courses Completed Section -->
+    <section id="courses" class="section">
+        <h2>Courses Completed</h2>
+        <p>1.NPTEL course on Soft Skills.<br>2.Quantum Mechanic MITOCW</p>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <h2>Contact</h2>
+        <p>email: shahpiyush210@gmail.com<br>2.Linkedin:www.linkedin.com/in/piyush-kumar-240638321</p>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2024 Piyush Kumar. All rights reserved.</p>
+        <div class="social-links">
+            <a href="#">LinkedIn</a>
+            <a href="#"></a>
+            <a href="#">Twitter</a>
+        </div>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    color: #A1A5AD;
+    background: #14151A;
+    line-height: 1.6;
+}
+/* Add styling for profile image */
+.profile-image {
+    width: 150px;  /* Adjust the size */
+    height: 150px;
+    border-radius: 50%;  /* Makes the image circular */
+    margin-bottom: 20px;  /* Space between image and the text */
+}
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #23262E;
+}
+
+header .logo {
+    font-size: 1.5rem;
+    color: #FFFFFF;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+}
+
+header nav ul li {
+    margin-left: 20px;
+}
+
+header nav ul li a {
+    color: #A1A5AD;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header nav ul li a:hover {
+    color: #62DAFB;
+}
+
+/* Hero Section */
+.hero {
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #23262E;
+}
+
+.hero-content {
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.hero .trophy-icon {
+    width: 100px;
+    margin-bottom: 20px;
+}
+
+.hero h1 {
+    font-size: 2.5rem;
+}
+
+.hero p {
+    margin: 20px 0;
+}
+
+.cta-button {
+    background-color: #00AEEF;
+    color: #FFFFFF;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 1rem;
+    border-radius: 5px;
+}
+
+.cta-button:hover {
+    background-color: #62DAFB;
+}
+
+/* Section styling */
+.section {
+    padding: 50px 20px;
+    text-align: center;
+    background-color: #1E1F24;
+    margin-bottom: 20px;
+}
+
+.section h2 {
+    color: #FFFFFF;
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.section p {
+    color: #A1A5AD;
+}
+
+/* Footer */
+footer {
+    background-color: #23262E;
+    text-align: center;
+    padding: 20px;
+    color: #A1A5AD;
+}
+
+footer .social-links a {
+    margin: 0 10px;
+    color: #00AEEF;
+    text-decoration: none;
+}
+
+footer .social-links a:hover {
+    color: #62DAFB;
+}
